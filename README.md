@@ -20,6 +20,10 @@ In the final process, the algorithm sequentially iterates through all interval c
 The application has been developed and tested on ArchLinux using CUDA 11.6.0-1 and GCC compiler 11.1.0-3.
 
 ## Build
+
+Make sure to have CUDA exec. files on PATH.
+For example: `export PATH=$PATH:/opt/cuda/bin` in ArchLinux case.
+
 ```Bash
 cmake -Bbuild
 cd build

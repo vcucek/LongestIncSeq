@@ -6,9 +6,6 @@ set(PROJECT_NAME "LongestIncSeq")
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
-set(CMAKE_CUDA_COMPILER "/opt/cuda/bin/nvcc")
-set(CUDA_TOOLKIT_ROOT_DIR "/opt/cuda")
-
 project(${PROJECT_NAME}
   VERSION 0.1
   LANGUAGES CXX CUDA
