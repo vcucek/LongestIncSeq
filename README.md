@@ -1,5 +1,5 @@
 ## Introduction
-Simple demo project for finding longest increasing interval in a sequence.<br>
+Simple demo project for finding longest increasing interval in a sequence of float values.<br>
 It provides two implementations optimized for CPU and CUDA compute units.
 
 The CUDA implementation utilizes the reduction algorithm.
